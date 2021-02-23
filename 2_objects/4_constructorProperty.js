@@ -1,7 +1,6 @@
 // constructor property
 let x = {}
-
-// let x = new Object // <- JS do this
+// let x = new Object() // <- JS do this
 
 new String() // '', "", ``
 new Boolean() // true, false
