@@ -10,4 +10,4 @@ function createCircle(radius) {
 
 
 const circ = createCircle(1)
-circ.draw()
+// circ.draw()
