@@ -12,7 +12,7 @@ function Circc(radius) {
 
     computeOptimumLocation(0.1)
 
-    // defaultLocation
+    defaultLocation
     this.radius // to access a member of Circc
 
     console.log('draw')
