@@ -11,14 +11,14 @@ function increase(numbero) {
   numbero++
 }
 increase(number)
-console.log(number)
+// console.log(number)
 
 let obj = { value: 10 }
 function increass(perru) {
   perru.value++
 }
 increass(obj)
-console.log(obj)
+// console.log(obj)
 
 // primitives are copied by their value
 // objects are copied by their reference
