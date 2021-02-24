@@ -1,6 +1,6 @@
 // constructor function
-function Circle(radius) {
-  // console.log('this: ', this) // points to Circle fn
+function Ciir(radius) {
+  // console.log('this: ', this) // points to Ciir fn
   this.radius = radius
   this.draw = function() {
     console.log('draw')
@@ -9,4 +9,4 @@ function Circle(radius) {
   // return this // this happens automatically with "new" operator
 }
 
-const circle = new Circle(1)
+const ciir = new Ciir(1)
