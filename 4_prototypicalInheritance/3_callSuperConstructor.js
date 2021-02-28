@@ -8,7 +8,7 @@ Shape.prototype.duplicate = function () {
 
 function Circle(radius, color) {
   Shape.call(this, color) // to asing Shape thisArg to Circle object or color arg assign to window obj
-  
+
   this.radius = radius
 }
 
