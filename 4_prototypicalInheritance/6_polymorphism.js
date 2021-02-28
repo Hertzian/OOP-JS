@@ -38,3 +38,6 @@ for (let shape of shapes) {
   shape.duplicate()
 }
 
+// Avoid creating inheritance hierarchies!
+// use inheritance only in one level!
+// favor Composition over Inheritance
