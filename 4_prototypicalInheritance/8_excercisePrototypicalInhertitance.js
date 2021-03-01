@@ -25,6 +25,13 @@ function HtmlSelectElement(items = []) {
   this.removeItem = function (item) {
     this.items.splice(this.items.indexOf(item), 1)
   }
+
+  this.render = function () {
+    //join to prevent "," after iterating all elements, (because .map returns an array)
+    return `<select>${this.items
+      .map((item) => `<option>${item}</option>`)
+      .join('')}</select>`
+  }
 }
 
 // HtmlSelectElement.prototype.click = function() {
@@ -40,5 +47,17 @@ HtmlSelectElement.prototype = new HtmlElement()
 // new HtmlSelectElement.prototype.constructor()
 // new HtmlSelectElement()
 
+function HtmlImageElement(src) {
+  this.src = src
+
+  this.render = function () {
+    return `<img src="${this.src}" />`
+  }
+}
+
+HtmlImageElement.prototype = new HtmlElement()
+HtmlImageElement.prototype.constructor = HtmlImageElement
+
 const h = new HtmlElement()
 const hs = new HtmlSelectElement()
+const i = new HtmlImageElement('perrito')
