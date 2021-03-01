@@ -11,7 +11,7 @@ const sayGoodbye = function () {} // this is an object/function
 const number = 1 // this is a primitive
 
 // class declaration - not hoisted
-class Circle {}
+class Circle2 {}
 
 // class expression - not hoisted
 const Square = class {}

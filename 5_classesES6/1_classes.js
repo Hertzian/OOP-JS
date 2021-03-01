@@ -6,7 +6,7 @@
 //   }
 // }
 
-class Circle {
+class Circle1 {
   constructor(radius) {
     this.radius = radius
     this.move = function() {}// if i dont want method into prototype
@@ -17,4 +17,4 @@ class Circle {
   }
 }
 
-const c = new Circle(1)
+const c = new Circle1(1)
